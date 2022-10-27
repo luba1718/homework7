@@ -1,4 +1,9 @@
-﻿int rows = ReadInt("количество строк m =  ");
+﻿// Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
+// m = 3, n = 4.
+// 0,5 7 -2 -0,2
+// 1 -3,3 8 -9,9
+// 8 7,8 -7,1 9
+int rows = ReadInt("количество строк m =  ");
 int colums = ReadInt("количество столбцов n =  ");
 double[,] numbers = new double[rows, colums];
 FillArray(numbers);
